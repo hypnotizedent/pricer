@@ -1,7 +1,6 @@
 import { useState } from "react";
-import Papa from "papaparse";
 
-// Updated for Vercel deployment with papaparse dependency
+// Updated for Vercel deployment - using simple CSV parsing
 interface PricingInputs {
   garment: string;
   size: string;
@@ -38,6 +37,14 @@ function getClosestQty(qty: number) {
   return closest;
 }
 
+// Simple CSV parser function
+function parseCSV(csvText: string): string[][] {
+  return csvText
+    .trim()
+    .split('\n')
+    .map(line => line.split(',').map(cell => cell.trim().replace(/"/g, '')));
+}
+
 export default function PricingForm() {
   const [inputs, setInputs] = useState<PricingInputs>({
     garment: "tshirt",
@@ -60,11 +67,11 @@ export default function PricingForm() {
       const response = await fetch(csvPath);
       if (!response.ok) throw new Error("CSV not found");
       const csvText = await response.text();
-      // Parse CSV
-      const parsed = Papa.parse(csvText.trim(), { skipEmptyLines: true });
-      const [header, ...rows] = parsed.data as string[][];
+      // Parse CSV using simple parser
+      const rows = parseCSV(csvText);
+      const [header, ...dataRows] = rows;
       // Find row for imprint size
-      const row = rows.find(r => r[0].replace(/\s/g, "") === inputs.size);
+      const row = dataRows.find(r => r[0].replace(/\s/g, "") === inputs.size);
       if (!row) throw new Error("Imprint size not found");
       // Find closest quantity break
       const closestQty = getClosestQty(inputs.qty);
