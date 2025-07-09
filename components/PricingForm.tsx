@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Papa from "papaparse";
 
+// Updated for Vercel deployment with papaparse dependency
 interface PricingInputs {
   garment: string;
   size: string;
