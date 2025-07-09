@@ -1,0 +1,47 @@
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model User {
+  id           String   @id @default(cuid())
+  name         String?
+  email        String   @unique
+  role         Role     @default(customer)
+  discountRate Float    @default(0.0)
+  quotes       Quote[]
+}
+
+model PricingRule {
+  id          String       @id @default(cuid())
+  serviceType ServiceType
+  size        String
+  colorCount  Int
+  basePrice   Float
+}
+
+model Quote {
+  id         String   @id @default(cuid())
+  user       User     @relation(fields: [userId], references: [id])
+  userId     String
+  inputs     Json
+  lineItems  Json
+  total      Float
+  createdAt  DateTime @default(now())
+}
+
+enum Role {
+  customer
+  rep
+  admin
+}
+
+enum ServiceType {
+  SCREEN_PRINT
+  EMBROIDERY
+  DIGITAL_TRANSFER
+}

@@ -1,0 +1,40 @@
+{
+  "name": "my-pricing-tool",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "prisma": "prisma"
+  },
+  "dependencies": {
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "@prisma/client": "4.10.1",
+    "bcryptjs": "2.4.3",
+    "jsonwebtoken": "9.0.0",
+    "next-auth": "4.22.1",
+    "prisma": "4.10.1",
+    "zod": "3.21.4",
+    "jspdf": "2.5.1",
+    "socket.io": "4.5.4",
+    "socket.io-client": "4.5.4",
+    "@trpc/client": "11.4.3",
+    "@trpc/server": "11.4.3",
+    "@trpc/next": "11.4.3",
+    "@tanstack/react-query": "^5.81.5",
+    "@trpc/react-query": "11.4.3",
+    "next": "13.4.4"
+  },
+  "devDependencies": {
+    "typescript": "5.7.2",
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "eslint": "8.36.0",
+    "eslint-config-next": "13.4.4",
+    "tailwindcss": "3.3.2",
+    "postcss": "8.4.21",
+    "autoprefixer": "10.4.14"
+  }
+}

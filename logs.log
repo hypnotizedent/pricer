@@ -1,0 +1,77 @@
+2025-06-30T19:02:09.814Z [ERROR] S&S Error: Request failed with status code 500
+2025-06-30T19:06:41.975Z [INFO] S&S: Fetched 6570 styles
+2025-06-30T19:07:47.782Z [INFO] S&S: Fetched 6570 styles
+2025-06-30T19:11:06.651Z [INFO] S&S: Fetched 6570 styles
+2025-06-30T19:11:07.727Z [ERROR] AS Colour Error: Request failed with status code 404
+2025-06-30T19:11:07.727Z [ERROR] Status: 404
+2025-06-30T19:11:07.728Z [ERROR] Body: {"statusCode":404,"message":"Resource not found"}
+2025-06-30T19:14:12.112Z [INFO] S&S: Fetched 6570 styles
+2025-06-30T19:14:12.633Z [ERROR] AS Colour Error: getaddrinfo ENOTFOUND apihub.ascolour.com
+2025-06-30T19:15:20.382Z [INFO] S&S: Fetched 6570 styles
+2025-06-30T19:15:20.787Z [ERROR] AS Colour Error: Request failed with status code 404
+2025-06-30T19:15:20.787Z [ERROR] Status: 404
+2025-06-30T19:15:20.788Z [ERROR] Body: {"statusCode":404,"message":"Resource not found"}
+2025-06-30T19:17:23.023Z [INFO] S&S: Fetched 6570 styles
+2025-06-30T19:17:23.675Z [INFO] AS Colour: Fetched undefined products
+2025-06-30T19:18:45.248Z [INFO] S&S: Fetched 6570 styles
+2025-06-30T19:18:45.891Z [INFO] AS Colour: Fetched undefined products
+2025-06-30T19:20:20.713Z [INFO] S&S: Fetched 6570 styles
+2025-06-30T19:20:21.366Z [INFO] AS Colour: Fetched undefined products
+2025-06-30T19:43:43.162Z [INFO] S&S: Fetched 6570 styles
+2025-06-30T19:43:44.015Z [INFO] AS Colour: Fetched undefined products
+2025-06-30T20:02:13.141Z [INFO] S&S: Fetched 6570 styles
+2025-06-30T20:02:13.728Z [INFO] AS Colour: Fetched undefined products
+2025-06-30T20:06:02.230Z [INFO] S&S: Fetched 6570 styles
+2025-06-30T20:06:02.944Z [INFO] AS Colour: Fetched undefined products
+2025-06-30T20:12:43.290Z [INFO] S&S: Fetched 6570 styles
+2025-06-30T20:12:43.795Z [INFO] AS Colour: Fetched undefined products
+2025-06-30T20:16:50.494Z [INFO] S&S: Fetched 6569 styles
+2025-06-30T20:16:51.098Z [INFO] AS Colour: Fetched undefined products
+2025-06-30T20:19:03.718Z [INFO] S&S: Fetched 6569 styles
+2025-06-30T20:19:04.276Z [INFO] AS Colour: Fetched undefined products
+2025-06-30T20:20:13.975Z [INFO] S&S: Fetched 6569 styles
+2025-06-30T20:20:14.528Z [INFO] AS Colour: Fetched undefined products
+2025-06-30T20:23:15.261Z [INFO] S&S: Fetched 6569 styles
+2025-06-30T20:23:15.877Z [INFO] AS Colour: Fetched undefined products
+2025-06-30T20:25:09.786Z [INFO] S&S: Fetched 6569 styles
+2025-06-30T20:25:10.460Z [INFO] AS Colour: Fetched undefined products
+2025-06-30T20:26:16.976Z [INFO] S&S: Fetched 6569 styles
+2025-06-30T20:26:18.043Z [INFO] AS Colour: Fetched undefined products
+2025-06-30T20:30:50.691Z [INFO] S&S: Fetched 6569 styles
+2025-06-30T20:30:51.317Z [INFO] AS Colour: Fetched undefined products
+2025-06-30T20:34:44.258Z [INFO] S&S: Fetched 6569 styles
+2025-06-30T20:34:44.845Z [INFO] AS Colour: Fetched undefined products
+2025-06-30T20:35:45.154Z [INFO] S&S: Fetched 6569 styles
+2025-06-30T20:35:45.706Z [INFO] AS Colour: Fetched undefined products
+2025-06-30T20:38:04.051Z [INFO] S&S: Fetched 6569 styles
+2025-06-30T20:38:04.543Z [INFO] AS Colour: Fetched undefined products
+2025-06-30T20:41:00.437Z [INFO] S&S: Fetched 6569 styles
+2025-06-30T20:41:00.994Z [INFO] AS Colour: Fetched undefined products
+2025-06-30T20:45:09.882Z [INFO] S&S: Fetched 6569 styles
+2025-06-30T20:45:10.450Z [INFO] AS Colour: Fetched undefined products
+2025-06-30T21:09:05.795Z [INFO] AS Colour: Fetched undefined products
+2025-06-30T21:09:55.040Z [INFO] AS Colour: Fetched undefined products
+2025-06-30T21:11:53.580Z [INFO] AS Colour: Fetched 0 products
+2025-06-30T21:12:24.072Z [INFO] AS Colour: Fetched 0 products
+2025-06-30T21:14:52.580Z [INFO] AS Colour: Fetched 0 products
+2025-06-30T21:15:45.636Z [INFO] AS Colour: Fetched 0 products
+2025-06-30T21:16:45.046Z [INFO] AS Colour: Fetched 0 products
+2025-06-30T21:27:46.970Z [INFO] AS Colour: Fetched 0 products
+2025-07-01T13:11:59.391Z [INFO] AS Colour: Fetched 0 products
+2025-07-01T13:12:53.432Z [INFO] AS Colour: Fetched 0 products
+2025-07-01T13:15:43.932Z [INFO] AS Colour: Fetched 0 products
+2025-07-01T13:19:45.111Z [INFO] AS Colour: Fetched 0 products
+2025-07-01T13:23:04.838Z [INFO] AS Colour: Fetched 0 products
+2025-07-01T13:24:44.839Z [INFO] AS Colour: Fetched 0 products
+2025-07-01T13:25:27.108Z [INFO] AS Colour: Fetched 0 products
+2025-07-01T13:27:15.611Z [INFO] AS Colour: Fetched 0 products
+2025-07-01T13:28:47.636Z [INFO] AS Colour: Fetched 0 products
+2025-07-01T13:29:48.330Z [INFO] AS Colour: Fetched 0 products
+2025-07-01T13:30:42.466Z [INFO] AS Colour: Fetched 0 products
+2025-07-01T13:32:56.627Z [WARN] AS Colour: Unexpected response structure:
+2025-07-01T13:32:56.629Z [INFO] AS Colour: Fetched 0 products
+2025-07-01T13:33:49.404Z [INFO] AS Colour: Fetched 250 products
+2025-07-01T13:59:19.457Z [INFO] AS Colour: Fetched 250 products
+2025-07-01T14:17:24.935Z [INFO] AS Colour: Fetched 250 products
+2025-07-01T14:19:36.019Z [INFO] AS Colour: Fetched 250 products
+2025-07-01T14:20:39.731Z [INFO] AS Colour: Fetched 250 products
